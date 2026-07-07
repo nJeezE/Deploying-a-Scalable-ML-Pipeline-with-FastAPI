@@ -2,12 +2,12 @@ Working in a command line environment is recommended for ease of use with git an
 
 # Environment Set up (pip or conda)
 * Option 1: use the supplied file `environment.yml` to create a new environment with conda
-* Option 2: use the supplied file `requirements.txt` to create a new environment with pip
+* Option 2: use the supplied file `requirements.txt` to create a new environment with pip (completed)
     
 ## Repositories
-* Create a directory for the project and initialize git.
+* Create a directory for the project and initialize git. (completed)
     * As you work on the code, continually commit changes. Trained models you want to use in production must be committed to GitHub.
-* Connect your local git repo to GitHub.
+* Connect your local git repo to GitHub. (completed)
 * Setup GitHub Actions on your repo. You can use one of the pre-made GitHub Actions if at a minimum it runs pytest and flake8 on push and requires both to pass without error.
     * Make sure you set up the GitHub Action to have the same version of Python as you used in development.
 
