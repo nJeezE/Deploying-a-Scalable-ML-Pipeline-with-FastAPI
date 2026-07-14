@@ -9,7 +9,7 @@ r = requests.get(url=url) # Your code here
 # TODO: print the status code
 print(r.status_code)
 # TODO: print the welcome message
-print(r.get("/"))
+print(r.json())
 
 
 
